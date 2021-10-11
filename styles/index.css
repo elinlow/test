@@ -310,6 +310,118 @@ header {
   border: none;
 }
 
+.reviews {
+  background-image: url("../images/tourist.png");
+  height: 730px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.reviews__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+.reviews__headline {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.reviews-example {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white;
+}
+.reviews-example__sam-sumon {
+  padding: 20px;
+  background-color: #333333;
+}
+.reviews-example__sam-sumon h3 {
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+.reviews-example__sam-sumon p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+}
+
+.fas {
+  color: #5474FD;
+}
+
+.footer {
+  height: 271px;
+}
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #232323;
+}
+
+.footer__slogan {
+  font-size: 12px;
+}
+
+.logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.some-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white;
+  margin-bottom: 30px;
+}
+.some-icons i {
+  margin-left: 20px;
+}
+.some-icons .fa-linkedin-in {
+  color: #5474FD;
+}
+
 body {
   background-color: grey;
   max-width: 1770px;

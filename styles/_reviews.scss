@@ -1,0 +1,39 @@
+.reviews {
+    background-image: url('../images/tourist.png');
+    height: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    &__headline {
+        color: white;
+        font-family: fonts.$main-font;
+    }
+}
+
+.reviews-example {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    &__sam-sumon {
+        padding: 20px;
+        background-color: #333333; 
+        h3 {
+            font-size: 20px;
+            font-family: fonts.$main-font;
+            color: white;
+        }
+        p {
+            font-family: fonts.$main-font;
+            font-size: 14px;
+        }
+    }
+}
+.fas {
+    color: #5474FD;
+}

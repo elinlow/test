@@ -37,3 +37,26 @@
 .fas {
     color: #5474FD;
 }
+
+@media screen and (max-width: 1000px) {
+    .reviews-example {
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .reviews-example {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .reviews-example {
+        max-width: 100%;
+    }
+
+}

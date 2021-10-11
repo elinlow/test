@@ -34,4 +34,9 @@
    .fa-linkedin-in {
        color: #5474FD;
    }
+   i:hover {
+        color: rgb(68, 68, 100);
+        cursor: pointer;
+        transition: all .4s ease;
+   }
 }

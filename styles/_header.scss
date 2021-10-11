@@ -28,3 +28,15 @@ header {
 
 @import 'form';
 @import 'nav';
+
+@media screen and (max-width: 750px) {
+    .search-field {
+        width: 100%;
+    }
+    .navbar-list {
+        display: none;
+    }
+    .dropdown-btn {
+        display: inline;
+    }
+}

@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
+    width: 100%;
+    background-color: #5474FD;
+    font-family: fonts.$second-font;
+}
+    .navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    color: white;
+        li {
+            list-style: none;
+            margin-left: 15px;
+        }
+}

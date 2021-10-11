@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+.logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 2.4px;
+}
+
+.slogan {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  letter-spacing: 6.82px;
+}
+
+header {
+  height: 820px;
+  background-image: url("../images/header-background.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.header-logo {
+  font-size: 48px;
+  line-height: 26px;
+}
+
+.scroll-down {
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
+.search-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.search-field__input {
+  background-color: white;
+  width: 500px;
+  height: 60px;
+  border: none;
+}
+.search-field__button {
+  width: 153px;
+  height: 62px;
+  border: 1px solid white;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+::-moz-placeholder {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+::-ms-input-placeholder {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 100%;
+  background-color: #5474FD;
+  font-family: "Aleo", serif;
+}
+
+.navbar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 12px;
+  color: white;
+}
+.navbar-list li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.about-us {
+  background-image: url("../images/second-background.png");
+  height: 685px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about-us__wrapper {
+  width: 40%;
+  margin-right: 40px;
+}
+.about-us__headline {
+  font-family: "Aleo", serif;
+  color: white;
+  font-size: 36px;
+}
+.about-us__text {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  letter-spacing: 1.6px;
+}
+.about-us__button {
+  border: none;
+  width: 228px;
+  height: 63px;
+}
+
+.about-us__grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 15px auto 15px auto 15px auto;
+  grid-template-columns: auto auto auto auto;
+  -ms-grid-rows: 220px 15px 220px;
+  grid-template-rows: 220px 220px;
+  grid-gap: 15px;
+}
+
+.about-us__grid-container > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.about-us__grid-container > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.about-us__grid-container > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.about-us__grid-container > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+
+.about-us__grid-container > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.about-us__grid-container > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.about-us__grid-container > *:nth-child(7) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+
+.about-us__grid-container > *:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+}
+.about-us__grid-container__first {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+}
+.about-us__grid-container__second {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+}
+
+.destination-one {
+  background-image: url("../images/spain-villa.png");
+  height: 700px;
+}
+.destination-one__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  background: #232323;
+  opacity: 0.9;
+  padding: 20px;
+}
+
+.destination-two {
+  background-image: url("../images/spanish-coast.png");
+  height: 700px;
+}
+.destination-two__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  background: #232323;
+  opacity: 0.9;
+  padding: 20px;
+}
+
+.destination-headline {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.destination-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.button {
+  width: 228px;
+  height: 63px;
+  border: none;
+}
+
+body {
+  background-color: grey;
+  max-width: 1770px;
+  width: 100%;
+}
+
+.search-field__button, .about-us__button, .button {
+  background-color: #5474FD;
+  color: white;
+  font-size: 14px;
+  font-family: "Aleo", serif;
+}

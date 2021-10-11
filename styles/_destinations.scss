@@ -1,0 +1,44 @@
+.destination-one {
+    background-image: url('../images/spain-villa.png');
+    height: 700px;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        background: #232323;
+        opacity: 0.9;
+        padding: 20px;
+    }
+}
+
+.destination-two {
+    background-image: url('../images/spanish-coast.png');
+    height: 700px;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        background: #232323;
+        opacity: 0.9;
+        padding: 20px;
+    }
+}
+
+.destination-headline {
+    font-family: fonts.$main-font;
+    font-size: 20px;
+    color: white;
+}
+
+.destination-text {
+    font-family: fonts.$main-font;
+    font-size: 16px;
+    color: white;
+}
+
+.button {
+    @extend %button;
+    width: 228px;
+    height: 63px;
+    border: none;
+} 

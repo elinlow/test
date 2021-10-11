@@ -6,11 +6,14 @@
         width: 500px;
         height: 60px;
         border: none;
+        &:focus {
+            background-color: rgb(81, 117, 81);
+        }
     }
     &__button {
         @extend %button;
         width: 153px;
-        height: 62px;
+        height: 60px;
         border: 1px solid white;
     }
 }
